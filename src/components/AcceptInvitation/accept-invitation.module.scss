@@ -1,0 +1,40 @@
+.image {
+   border-radius: 50%;
+   width: 50%;
+}
+
+.imageCol,
+.btnAcceptCol {
+   text-align: right;
+}
+
+:root {
+
+   .btnAccept,
+   .btnReject {
+      --background: transparent;
+      --color: #000;
+      --border-width: 1px;
+      --border-style: solid;
+      --box-shadow: none;
+   }
+
+   .btnReject {
+      --border-color: #000;
+   }
+
+   .btnAccept {
+      --border-color: #0f9d58;
+
+      .acceptIcon {
+         color: #0f9d58
+      }
+   }
+}
+
+.container {
+   border-top: 2px solid #e0e0e0;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+}
