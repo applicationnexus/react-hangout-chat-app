@@ -1,0 +1,31 @@
+.column {
+   align-self: center;
+}
+
+.peopleIcon,
+.searchIcon {
+   font-size: 1.4em;
+   color: #455a64
+}
+
+.focus {
+   border: 1px solid blue;
+}
+
+.blur {
+   border: 1px solid #d2d2d2;
+}
+
+.options {
+   color: red;
+}
+
+.checkmarkIcon {
+   color: #0f9d58;
+   font-size: 1.4em;
+   align-self: center;
+}
+
+.error {
+   border: 1px solid red;
+}
