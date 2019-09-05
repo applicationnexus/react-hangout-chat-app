@@ -1,0 +1,66 @@
+.messagesContainer {
+   background-color: #eceff1;
+   height: 86%;
+   overflow: auto;
+}
+
+.height {
+   height: 96%;
+}
+
+.rightColumn {
+   text-align: right;
+
+   .messageBody {
+      background-color: #cfd8dc;
+
+   }
+}
+
+.leftColumn {
+   text-align: left;
+
+   .messageBody {
+      background-color: #fff;
+
+   }
+}
+
+.messageBody {
+   padding: 6px;
+   border-radius: 5px;
+   display: inline-block;
+   font-size: 0.9em;
+}
+
+.friendImage {
+   width: 50%;
+   height: 100%;
+   border-radius: 50%;
+}
+
+.backgroundColor {
+   background-color: #cfd8dc;
+   display: block;
+}
+
+pre {
+   margin: 0;
+   font-family: sans-serif
+}
+
+.imgCol {
+   align-self: center;
+}
+
+.messageTime {
+   margin-top: 5px;
+   font-size: 0.7em;
+   color: #6c6e6f
+}
+
+.emptyList {
+   position: fixed;
+   top: 30%;
+   left: 50%;
+}
